@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+ <link rel="stylesheet" href="style.css">  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+</head>
+<body>
+  <div class="header">
+    <ul>
+      <li><img src="./images/logo.svg"> </li>
+      <li>Collections</li>
+      <li>Men</li>
+      <li>Women</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+    <ul class="right">
+      <li id="cart"><img src="./images/icon-cart.svg"> </li><p id="counter">0</p>
+      <li><img src="./images/image-avatar.png" width="30px"> </li>
+    </ul>
+    <div id="zindex">
+      <h3>Cart</h3>
+      <hr>
+      <p>your cart is empty</p>
+    </div>
+
+</div>
+  <div class="shoes">
+    <div class="sneakers">
+      <img src="./images/image-product-1.jpg" id="mainimg" width="400px" height="400px" style="border-radius: 12px;">
+      <img src="./images/image-product-2.jpg" id="mainimg2" width="400px" height="400px" style="border-radius: 12px;">
+      <img src="./images/image-product-3.jpg" id="mainimg3" width="400px" height="400px" style="border-radius: 12px;">
+      <img src="./images/image-product-4.jpg" id="mainimg4" width="400px" height="400px" style="border-radius: 12px;">
+      <div class="preview">
+        <img src="./images/image-product-1-thumbnail.jpg" id="preview1" width="100px">
+        <img src="./images/image-product-2-thumbnail.jpg" id="preview2" width="100px">
+        <img src="./images/image-product-3-thumbnail.jpg" id="preview3" width="100px">
+        <img src="./images/image-product-4-thumbnail.jpg" id="preview4" width="100px">
+      </div>
+    </div>
+    <div class="order">
+      <h4 class="company">Sneaker Company</h4>
+      <h1 class="limited">Fall Limited Edition Sneakers</h1>
+      <p class="para">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+        <p><span class="bold">$125.00 </span>
+          <span class="colored">50%</span></p>
+          <p class="price">$250.00</p>
+          <p class="inline"><span class="maths"><img src="./images/icon-minus.svg" id="minus" style="margin-right: 20px;"><span id="cut">0</span>
+            <img src="./images/icon-plus.svg" id="plus" style="margin-left: 15px;" ></span> 
+            <button id="btn"><img src="./images/icon-cart.svg" width="20px" style="margin-right: 10px"> Add to cart</button></p>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
